@@ -62,7 +62,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
                 {description}
               </Text>
             )}
-            <Flex gap="24" wrap>
+            {/* <Flex gap="24" wrap>
               {content?.trim() && (
                 <SmartLink
                   suffixIcon="arrowRight"
@@ -81,7 +81,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
                   <Text variant="body-default-s">View project</Text>
                 </SmartLink>
               )}
-            </Flex>
+            </Flex> */}
           </Column>
         )}
       </Flex>
