@@ -11,7 +11,7 @@ import {
   Meta,
   Line,
 } from "@once-ui-system/core";
-import { home, about, person, baseURL, routes } from "@/resources";
+import { home, about, person, baseURL, routes, gallery } from "@/resources";
 import { Mailchimp } from "@/components";
 import { Projects } from "@/components/work/Projects";
 import { Posts } from "@/components/blog/Posts";
@@ -79,7 +79,8 @@ export default function Home() {
             <Button
               id="about"
               data-border="rounded"
-              href={about.path}
+              href={gallery.path} 
+              // The original template linked to the about page, but I changed it to link to the gallery page since the about page was deactivated.
               variant="secondary"
               size="m"
               weight="default"

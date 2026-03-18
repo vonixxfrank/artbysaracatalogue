@@ -60,7 +60,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Where art finds its way into people’s lives</>,
   featured: {
     display: true,
     title: (
@@ -76,10 +76,11 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Marien, an artist at <Text as="span" size="xl" weight="strong">ART BY SARA</Text>, where I draw <br /> user desires. After hours, I build my own franchise.
-</>
+    I'm Marien, an artist at <Text as="span" size="xl" weight="strong">ART BY SARA</Text>, turning desires <br /> into drawings, and nights into the foundation of my own franchise.
+</> 
   ),
 };
+
 
 const about: About = {
   path: "/about",
@@ -255,7 +256,6 @@ const gallery: Gallery = {
   label: "Gallery",
   title: `Photo gallery – ${person.name}`,
   description: `A photo collection by ${person.name}`,
-  // Images by https://lorant.one
   // These are placeholder images, replace with your own
   images: [
     {
@@ -295,6 +295,11 @@ const gallery: Gallery = {
     },
     {
       src: "/images/gallery/vertical-3.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/vertical-5.jpg",
       alt: "image",
       orientation: "vertical",
     },
